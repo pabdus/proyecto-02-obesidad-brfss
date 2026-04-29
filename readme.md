@@ -16,7 +16,7 @@ Este proyecto responde esas preguntas con un experimento controlado: **tres clas
 
 CTGAN es uno de los modelos generativos más populares para datos tabulares y se usa rutinariamente para balanceo de clases en producción — desde fraude bancario hasta diagnóstico clínico. Pero los benchmarks que evalúan su impacto downstream son escasos y a menudo cherrypicked. Este proyecto aporta evidencia honesta sobre cuándo CTGAN aporta valor real y cuándo no.
 
-El hallazgo principal — que CTGAN no superó a SMOTE — replica conclusiones del [Proyecto 00 (CTGAN Critical Evaluation)]([../proyecto-00-ctgan-evaluation/](https://github.com/pabdus/ctgan-adult-critical-evaluation)), donde V3b (clip-only, una línea de código) superó a V2 (log+clip, mucho más elaborado) en utilidad downstream. La narrativa es coherente: **la técnica simple a veces gana, y documentar cuándo el método sofisticado no aporta valor es tan importante como documentar cuándo sí lo hace.**
+El hallazgo principal — que CTGAN no superó a SMOTE — replica conclusiones del [Proyecto 00 (CTGAN Critical Evaluation)](https://github.com/pabdus/ctgan-adult-critical-evaluation), donde V3b (clip-only, una línea de código) superó a V2 (log+clip, mucho más elaborado) en utilidad downstream. La narrativa es coherente: **la técnica simple a veces gana, y documentar cuándo el método sofisticado no aporta valor es tan importante como documentar cuándo sí lo hace.**
 
 ---
 
