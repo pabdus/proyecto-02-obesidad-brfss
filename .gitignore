@@ -1,0 +1,21 @@
+# datos — nunca al repositorio
+data/raw/
+data/processed/
+
+# entorno virtual
+venv/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# modelos entrenados (pueden ser pesados)
+models/
+
+# archivos del sistema
+.DS_Store
+__pycache__/
+*.pyc
+
+# archivos temporales
+*.log
+*.tmp
